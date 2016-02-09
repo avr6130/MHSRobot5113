@@ -228,7 +228,7 @@ public class ShooterSubSystem {
 		ShooterSubSystem.aimParametersTable.put(2, initialParms);
 	
 		// This is the alternate implementation of the lookup table. It is stored in an ArrayList, which 
-		// is simply an array. The index into the array is calculated and the values returned.
+		// is simply an array. The index into the array is calculated and the values returned. 
 		
 		// Create the ArrayList of AimParameters
 		aimParmsArray = new ArrayList<AimParameters>();
